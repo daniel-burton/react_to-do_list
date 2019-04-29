@@ -1,0 +1,34 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.listItem {
+  border: solid lightGray 1px;
+  padding: .2em .5em;
+  margin: .2em;
+}
+button {
+  width:2em;
+}
+.done {
+  float:right;
+  margin: .75em
+}
+
+.itemBox {
+  padding:.5em;
+  margin:.5em;
+  width:62%;
+}
+
+.itemBox:focus {
+  border: solid lightGray 1px;
+  background-color: white;
+  margin:calc(.5em - 1px);
+}
+
+.itemBox:not(:focus) {
+  border: none;
+  background-color: none;
+}

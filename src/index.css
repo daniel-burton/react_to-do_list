@@ -1,14 +1,51 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* CSS files add styling rules to your content */
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+button {
+  width: 2em;
 }
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  font-size:16px;
+}
+
+h1 {
+  color: gray;
+}
+
+
+
+h3 {
+  color: gray
+}
+
+
+.controls {
+  margin: 2em;
+}
+
+/*@media screen and (max-width:450px) {
+  .itembox {
+    width:90%;
+  }
+  .list {
+    width:17em;
+  }
+
+}
+
+@media screen and (min-width:451px) {
+*/  .itembox {
+    width:90%;
+  }
+  .list {
+    width: 20em;
+  }
+
